@@ -50,9 +50,9 @@ export function Contact() {
           subtitle="Have an idea, role, or collaboration in mind? My inbox is always open — I usually reply within 24 hours."
         />
 
-        <div className="grid lg:grid-cols-5 gap-6 lg:gap-8 max-w-6xl mx-auto">
+        <div className="grid lg:grid-cols-5 gap-6 lg:gap-8 max-w-6xl mx-auto items-start">
           {/* LEFT — Contact cards */}
-          <div className="lg:col-span-2 space-y-4 flex flex-col">
+          <div className="lg:col-span-2 space-y-4 flex flex-col min-w-0">
             <Reveal>
               <div className="glass rounded-2xl p-6 relative overflow-hidden">
                 <div className="absolute -top-12 -right-12 w-40 h-40 rounded-full opacity-20 blur-2xl" style={{ background: "var(--gradient-primary)" }} />
@@ -91,10 +91,10 @@ export function Contact() {
           </div>
 
           {/* RIGHT — Form */}
-          <Reveal delay={0.15}>
+          <Reveal delay={0.15} className="lg:col-span-3 min-w-0">
             <form
               onSubmit={onSubmit}
-              className="lg:col-span-3 glass rounded-3xl p-6 sm:p-10 relative overflow-hidden"
+              className="glass rounded-3xl p-6 sm:p-10 relative overflow-hidden h-full"
             >
               {/* gradient border glow */}
               <div aria-hidden className="absolute inset-0 rounded-3xl pointer-events-none opacity-60"
