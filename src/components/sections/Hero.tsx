@@ -1,6 +1,7 @@
 import { motion } from "framer-motion";
 import { ArrowDown, Download, Github, Linkedin, Mail } from "lucide-react";
 import heroBg from "@/assets/hero-bg.jpg";
+import profileImg from "@/assets/profile.jpg";
 import { profile } from "@/data/portfolio";
 
 export function Hero() {
@@ -100,9 +101,7 @@ export function Hero() {
           <div className="relative mx-auto w-72 h-72 sm:w-80 sm:h-80 lg:w-[22rem] lg:h-[22rem]">
             <div className="absolute -inset-4 rounded-full blur-2xl opacity-70" style={{ background: "var(--gradient-hero)", animation: "glow-pulse 4s ease-in-out infinite" }} />
             <div className="relative w-full h-full rounded-full overflow-hidden glass p-1.5" style={{ animation: "float 6s ease-in-out infinite" }}>
-              <img src="/profile-placeholder" alt={profile.name}
-                onError={(e) => { (e.currentTarget as HTMLImageElement).src = new URL("../../assets/profile.jpg", import.meta.url).href; }}
-                className="w-full h-full object-cover rounded-full" />
+              <img src={profileImg} alt={profile.name} width={352} height={352} className="w-full h-full object-cover rounded-full" />
             </div>
             {/* floating chips */}
             <motion.div className="absolute -top-2 -left-6 glass rounded-2xl px-3 py-2 text-xs font-mono"
