@@ -44,13 +44,13 @@ export const education = [
     school: "Intermediate (12th — MPC)",
     degree: "Board of Intermediate Education, AP",
     period: "2021 — 2023",
-    grade: "Paste your score",
+    grade: "90",
   },
   {
     school: "10th Class — SSC",
     degree: "Board of Secondary Education",
     period: "2020 — 2021",
-    grade: "Paste your score",
+    grade: "10",
   },
 ];
 
@@ -61,8 +61,8 @@ export const projects = [
     description:
       "AI-powered personalized fashion app using Gemini 2.5 Flash. Multimodal inference combines visual features (skin tone) with user profile for styling. 'Virtual Try-On' renders photorealistic clothing overlays preserving user identity.",
     tech: ["TypeScript", "Gemini 2.5 Flash", "Multimodal AI"],
-    github: "Paste your url",
-    demo: "Paste your url",
+    github: "",
+    demo: "https://ai.studio/apps/bfe97b20-f780-487e-b9e6-cf73f96e7554",
   },
   {
     title: "EchoPack AI",
@@ -70,21 +70,21 @@ export const projects = [
     description:
       "Helps businesses swap harmful plastics for eco-friendly packaging. ML models (Random Forest, XGBoost) predict carbon footprint and cost savings. Smart dashboard suggests green materials with CO₂ saved & cost shown.",
     tech: ["Flask", "PostgreSQL", "Random Forest", "XGBoost"],
-    github: "Paste your url",
-    demo: "Paste your url",
+    github: "https://github.com/springboardmentor053-cyber/EcopackAI-AI-powere-sustinable-packing-recommendation-system/tree/Satyanarayana_Achutha",
+    demo: "",
   },
 ];
 
 export const certifications = [
-  { name: "AI Agent Intensive Course with Google", url: "Paste your url" },
-  { name: "Agentforce Specialist — Salesforce", url: "Paste your url" },
-  { name: "Alibaba Cloud Developer", url: "Paste your url" },
-  { name: "AI-powered Resume Screening & Ranking System", url: "Paste your url" },
-  { name: "Cybersecurity & Ethical Hacking — Tamizhan Skills", url: "Paste your url" },
-  { name: "Infosys Springboard 6.0 Internship", url: "Paste your url" },
-  { name: "ServiceNow", url: "Paste your url" },
-  { name: "Python Basic — HackerRank", url: "Paste your url" },
-  { name: "Trends on Email Marketing", url: "Paste your url" },
+  { name: "AI Agent Intensive Course with Google", url: "https://drive.google.com/file/d/15n9nfIufZgp7VgCjIa9ML4nrWQ-plJmD/view?usp=sharing" },
+  { name: "Agentforce Specialist — Salesforce", url: "https://drive.google.com/file/d/1YQKZGCz0VkN7_GKURgbGDX0Z0Im4JUIg/view?usp=sharing" },
+  { name: "Alibaba Cloud Developer", url: "https://drive.google.com/file/d/1lv-qAWh8JRU99hyLUm1IKh-eJ-kx-chS/view?usp=sharing" },
+  { name: "AI-powered Resume Screening & Ranking System", url: "https://drive.google.com/file/d/17a1o0tLN1a8S6oodYgl2_i-89mjyETBa/view?usp=sharing" },
+  { name: "Cybersecurity & Ethical Hacking — Tamizhan Skills", url: "https://drive.google.com/file/d/1QEeheCXnqlodhh717ha6aj8dFEKH3yAC/view?usp=sharing" },
+  { name: "Infosys Springboard 6.0 Internship", url: "https://drive.google.com/file/d/1_sSbJTp4LCc-eyiNxvOfRxPwbEY6uw71/view?usp=sharing" },
+  { name: "ServiceNow", url: "https://drive.google.com/file/d/1yhBJS3DAh2dfG_liGaKVhlphIzqL0cgG/view?usp=sharing" },
+  { name: "Python Basic — HackerRank", url: "https://drive.google.com/file/d/1afTax7_YVpcKe3ApQGAyfkfajI0ML_LI/view?usp=sharing" },
+  { name: "Trends on Email Marketing", url: "https://drive.google.com/file/d/187uKqKdmERfzAMAIJVJuIuq-SyAABE-z/view?usp=sharing" },
 ];
 
 export const experience = [
