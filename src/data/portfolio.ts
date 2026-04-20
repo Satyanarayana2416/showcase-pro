@@ -7,11 +7,11 @@ export const profile = {
   email: "achuthavenkatasatyanarayana@gmail.com",
   phone: "+91 99665 82097",
   links: {
-    github: "https://github.com/",
-    linkedin: "https://www.linkedin.com/",
-    leetcode: "https://leetcode.com/",
-    hackerrank: "https://www.hackerrank.com/",
-    resume: "/Achutha_Resume.pdf",
+    github: "https://github.com/Satyanarayana2416",
+    linkedin: "https://www.linkedin.com/in/satyanarayana-328750292/",
+    leetcode: "https://leetcode.com/u/Purnith_3526/",
+    hackerrank: "https://www.hackerrank.com/profile/23A31A4624",
+    resume: "https://drive.google.com/file/d/13iRmd5QgssvVi4-qAzffgdnmf3MrRkhE/view?usp=sharing",
   },
 };
 
