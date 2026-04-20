@@ -1,6 +1,6 @@
 export const profile = {
   name: "Achutha Venkata Satyanarayana",
-  shortName: "Achutha",
+  shortName: "Achutha Venkata Satyanarayana",
   tagline: "Software Developer · AI Engineer · Cybersecurity Enthusiast",
   bio: "I'm a Computer Science & Cybersecurity undergrad at Pragati Engineering College, building multimodal AI apps with Gemini, exploring AI Agents, and shipping secure, modern software.",
   location: "Rajahmundry, Andhra Pradesh — 533103",
