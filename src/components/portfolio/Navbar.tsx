@@ -34,7 +34,7 @@ export function Navbar() {
         <div className={`glass rounded-full px-5 py-3 flex items-center justify-between ${scrolled ? "shadow-[var(--shadow-card)]" : ""}`}>
           <a href="#hero" className="font-display font-bold text-lg">
             <span className="text-gradient">{profile.shortName}</span>
-            <span className="text-foreground">.dev</span>
+            <span className="text-foreground"></span>
           </a>
           <nav className="hidden md:flex items-center gap-1">
             {links.map((l) => (
