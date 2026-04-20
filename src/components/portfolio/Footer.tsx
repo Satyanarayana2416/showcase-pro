@@ -7,7 +7,7 @@ export function Footer() {
       <div className="container mx-auto px-6 py-10 flex flex-col md:flex-row items-center justify-between gap-6">
         <div className="text-center md:text-left">
           <p className="font-display font-bold text-lg">
-            <span className="text-gradient">{profile.shortName}</span>.dev
+            <span className="text-gradient">{profile.shortName}</span>
           </p>
           <p className="text-xs text-muted-foreground mt-1">© {new Date().getFullYear()} {profile.name}. Crafted with care.</p>
         </div>
